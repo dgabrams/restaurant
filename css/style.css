@@ -1,0 +1,87 @@
+body{
+	 font-size: 13px;
+	 font-family: "Vollkorn";
+	 font-style: normal;
+	 font-weight: 400;
+	 margin:0;
+}
+
+h1{
+	 font-size: 30px;
+	 line-height: 30px;
+	 margin-bottom: 10px;
+	 margin-left: 30px;
+	 color: white;
+	 }
+h2{
+	 font-size: 20px;
+	 font-style: italic;
+	 line-height: 20px;
+	 margin-bottom: 25px;
+	 margin-left: 30px;
+	 color: #982e2e;
+	 }
+h3{
+	 font-size: 16px;
+	 line-height: 30px;
+	 margin-left: 30px;
+	 color: #982e2e;
+	 }
+
+p{
+	 font-size: 12px;
+	 line-height: 20px;
+	 margin-left: 30px;
+	 color: #982e2e;
+	 font-style: italic;
+}
+
+p.heading{
+	 letter-spacing: 2px;
+	 font-size: 13px;
+	 margin-bottom: 35px;
+	 border-width: 0px 0px 1px 0px;
+	 border-style: dotted;
+	 margin-top: 45px;
+	 }
+
+.container {
+	width: 90%;
+  	max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 40 px;
+ 	 }
+
+.branding {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+.course h3 {
+	font-weight: normal;
+	color:;
+	}
+
+.events h2 {
+	color: white;
+}
+
+.events p {
+	font-weight: normal;
+}
+
+.events {
+	text-align: center;
+}
+
+.site_content {
+	padding-top: 40px;
+	background: url ('../images/background-pattern.jpg')
+	left top repeat;
+		}
+
+.contact {
+	color: white;
+		}
+
