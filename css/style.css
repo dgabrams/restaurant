@@ -36,6 +36,11 @@ p{
 	 font-style: italic;
 }
 
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
 p.heading{
 	 letter-spacing: 2px;
 	 font-size: 13px;
@@ -58,30 +63,57 @@ p.heading{
 	text-align: center;
 	}
 	
+.menu-image {
+	margin-left: -2.25%;
+	max-width: 104.5%;
+	}
+				
+.events-image {
+	margin-left:-2%;
+	max-width: 104%;
+	}
+				
 .course h3 {
 	font-weight: normal;
-	color:;
 	}
 
 .events h2 {
 	color: white;
-}
+	}
 
 .events p {
 	font-weight: normal;
-}
+	}
 
 .events {
 	text-align: center;
+	}
+
+.footer {
+		position: relative;
+		background: url('../images/header-pattern.jpg') left top repeat;
+		background-size: cover;
 }
 
-.site_content {
-	padding-top: 40px;
-	background: url ('../images/background-pattern.jpg')
-	left top repeat;
-		}
+@media (min-width: 600px) {
+	
+	.main_content {
+	float:left;
+	width: 60%;
+	}
+	
+	.sub_content {
+	float: right;
+	width: 30%;
+	}
+}
 
-.contact {
-	color: white;
-		}
+@media (max-width: 600px) {
 
+	.main_content,
+	.sub_content,
+	.contact {
+	float: none;
+	width: 100%;
+	}
+}
