@@ -117,10 +117,24 @@ p.heading{
 
 @media (max-width: 600px) {
 
+
+	.logo {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.logo,
 	.main_content,
 	.sub_content,
 	.contact {
 	float: none;
 	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	}
+
+	.contact {
+		margin-bottom: 1em;
+		text-align: center;
 	}
 }
