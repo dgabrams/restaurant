@@ -55,7 +55,13 @@ p.heading{
   	max-width: 960px;
     margin: 0 auto;
     padding-bottom: 40 px;
- 	 }
+ }
+
+.container:after {
+   content:"";
+   display:table;
+   clear:both;
+}
 
 .branding {
 	width: 400px;
