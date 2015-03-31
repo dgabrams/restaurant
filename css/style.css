@@ -70,7 +70,8 @@ p.heading{
 				
 .events-image {
 	margin-left:-2%;
-	max-width: 104%;
+	width: 104%;
+	max-width: inherit;
 	}
 				
 .course h3 {
