@@ -19,11 +19,22 @@
 			.site_header {
 				position: relative;
 				width: 100%;
-				padding: 60px;
 				background-color: #c3b26f;
 				background: url('images/header-pattern.jpg') left top repeat;
 				overflow: hidden;
 				}
+
+			.site_header-wrap {
+				padding-top: 60px;
+				padding-bottom: 60px;
+
+			}
+
+			.site_header-wrap:after {
+			   content:"";
+			   display:table;
+			   clear:both;
+			}
 				
 			.main_content {
 				margin-left: 5%;
@@ -37,12 +48,13 @@
 				margin-top: 5%;
 				background-color:#f2eacc;
 				background-color: rgba(242, 234, 204, .7);
-				padding-right: 20px;
 				padding-bottom: 20px;
 				}
 					
 			.logo {
+				float: left;
 				width: 275px ;
+				margin-left: 5%;
 				}
 
 			.contact {
@@ -80,15 +92,16 @@
 <body>
 			<div class="site_header">
 				<div class="container">
-				<div class="contact">
-						<p>1425 Aliceanna Street,<br>
-						Baltimore, MD 21231<br> 
-						410-534-7296 </p>
-					</div> <!-- /.contact -->	
-					<div class="logo">
-					<img src="images/logo.png" width="275">
-				</div> <!-- /.logo -->
-				
+					<div class="site_header-wrap">
+						<div class="contact">
+							<p>1425 Aliceanna Street,<br>
+							Baltimore, MD 21231<br> 
+							410-534-7296 </p>
+						</div> <!-- /.contact -->	
+						<div class="logo">
+							<img src="images/logo.png" width="275">
+						</div> <!-- /.logo -->
+					</div>
 				</div> <!-- /.container -->
 												
 			</div><!-- /.site_header -->

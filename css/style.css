@@ -55,7 +55,13 @@ p.heading{
   	max-width: 960px;
     margin: 0 auto;
     padding-bottom: 40 px;
- 	 }
+ }
+
+.container:after {
+   content:"";
+   display:table;
+   clear:both;
+}
 
 .branding {
 	width: 400px;
@@ -70,7 +76,8 @@ p.heading{
 				
 .events-image {
 	margin-left:-2%;
-	max-width: 104%;
+	width: 104%;
+	max-width: inherit;
 	}
 				
 .course h3 {
@@ -110,10 +117,24 @@ p.heading{
 
 @media (max-width: 600px) {
 
+
+	.logo {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.logo,
 	.main_content,
 	.sub_content,
 	.contact {
 	float: none;
 	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	}
+
+	.contact {
+		margin-bottom: 1em;
+		text-align: center;
 	}
 }
